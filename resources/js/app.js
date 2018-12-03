@@ -13,6 +13,12 @@ import Vuetify from 'vuetify'
  
 Vue.use(Vuetify)
 
+import User from './Helpers/User'
+window.User = User
+
+
+
+
 Vue.component('AppHome', require('./components/AppHome.vue'));
 import router from './Router/router.js'
 
